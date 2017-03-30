@@ -1,0 +1,72 @@
+body{
+  padding: 2em;
+  margin: 0;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 24px;
+  line-height: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30em;
+}
+
+h1, h2{ line-height: 1.4em; }
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+li{
+  line-height: 1.6em;
+  margin-bottom: .3em;
+}
+
+ul.checks{
+  list-style-type: default;
+}
+
+ul.checks li{
+  position: relative;
+  padding-left: 1.5em;
+}
+
+ul.checks li:before{
+  content: '\2714';
+  color: green;
+  position: absolute;
+  left: 0;
+}
+
+ul.ellipsis li{
+  padding-left: 1.5em;
+  position: relative;
+}
+
+ul.ellipsis li:before{
+  content: '...';
+  position: absolute;
+  left: 0;
+}
+
+/*
+li{
+  padding-left: 30px;
+}
+*/
+
+a{
+  color: green;
+}
+
+@media(max-width: 700px) {
+  body{
+    font-size: 19px;
+  }
+  h1{ font-size: 1.45em; }
+  h2{ font-size: 1.3em; }
+  h3{ font-size: 1.2em; }
+}
+
+
