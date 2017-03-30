@@ -11,6 +11,9 @@ body{
 
 h1, h2{ line-height: 1.4em; }
 
+.face{
+}
+
 ul{
   list-style-type: none;
   padding: 0;
